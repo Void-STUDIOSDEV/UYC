@@ -12,7 +12,8 @@ public class v4 {
 		Scanner ext = new Scanner(System.in);
 		
 		for (;;) {
-			System.out.println("\n!! WORDS IN 'AMOUNT' WILL CRASH PROGRAM !!");
+			System.out.println("\nWORDS IN 'AMOUNT' WILL CRASH PROGRAM");
+			System.out.println("Never send an Organic to do a Machine's job.")
 			
 			HttpClient client = HttpClient.newHttpClient(); //this handles connection to API server (JAVA already handles encryption)
 			HttpRequest request = HttpRequest.newBuilder() //create a request to the API
